@@ -21,7 +21,6 @@ int find_first_fit(struct header *free_list_ptr, uint64_t size) {
     }
     free_list_ptr = free_list_ptr->next;
   }
-
   return -1;
 }
 
